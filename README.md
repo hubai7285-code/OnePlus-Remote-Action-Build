@@ -1,5 +1,5 @@
 # OnePlus-Remote-Action-Build
-Build OnePlus latest kernel for your device with KSUN/WildKSU/KSU + SusFS anytime without knowing or self-patching. Just clone, edit config as per requirement and build.
+Build OnePlus latest kernel for your device with KSUN/WildKSU/KSU + SusFS anytime without knowing or self-patching. Just clone, edit the config as per requirement and build.
 
 ## How to Start?
 1. Click on Fork button.
@@ -48,19 +48,12 @@ Note: Not gonna explain for cloned user as you already have some idea on how to 
 
 Below Options all have same properties:
 
-6. **Enter SusFS Branch or commit hash for android12-5.10**: SusFS hash for android12-5.10
+6. **Enter SusFS Branch or commit hash for selected device kernel**: Enter SusFS hash based on device kernel
 
-7. **Enter SusFS Branch or commit hash for android13-5.15**: SusFS hash for android13-5.15
-
-8. **Enter SusFS Branch or commit hash for android14-6.1**: SusFS hash for android14-6.1
-
-9. **Enter SusFS Branch or commit hash for android15-6.6**: SusFS hash for android15-6.6
-
-10.**Enter SusFS Branch or commit hash for android16-6.12**: SusFS hash for android16-6.12
-
-	a. Leave blank for latest.
-	b. Take hash from SusFS repo and correct branch based on your kernel.
-	c. You need to fill hash only for your kernel version if you need a particular version. 
+Note:
+- Leave blank for latest.
+- Take hash from SusFS repo and correct branch based on your kernel.
+- You need to fill hash only for your kernel version if you need a particular version. 
 
 ## FAQs
 ### 1. Why are the builds failing?
